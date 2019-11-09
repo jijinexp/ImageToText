@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "957044901794",
+    "firebase_url": "https://imagetotexteditor.firebaseio.com",
+    "project_id": "imagetotexteditor",
+    "storage_bucket": "imagetotexteditor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957044901794:android:b3c1365ad8cd58cd4394fb",
+        "android_client_info": {
+          "package_name": "com.example.imagetotexteditor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957044901794-h4ghcmsfqvtpkbjrtbf169338f39hgr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-29EJjkfAEKj2cHLBhm2GNekkPREZGEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957044901794-h4ghcmsfqvtpkbjrtbf169338f39hgr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

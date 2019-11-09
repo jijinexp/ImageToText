@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/editorFragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bin_colour">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/editorToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/bin_colour"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:weightSum="1">
+        <ImageButton
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bin_colour"
+            android:contentDescription="@string/save_dialog_question"
+            android:src="@drawable/ic_save_black_24dp" />
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bin_colour"
+            android:contentDescription="@string/save_dialog_question"
+            android:src="@drawable/ic_share_black_24dp" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="@string/nnf_name"
+        android:inputType="text"
+        android:maxLength="25"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/text_formatting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="start"
+        android:hint="@string/Text_Output"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+
+</LinearLayout>

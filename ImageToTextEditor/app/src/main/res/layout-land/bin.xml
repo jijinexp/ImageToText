@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@drawable/bin_colour">
+
+    <LinearLayout
+        android:id="@+id/extension"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/enhance"
+            android:textSize="14sp" />
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/umbralization"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:max="50"
+            android:progress="40" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/croppedImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/extension" />
+
+    <Button
+        android:id="@+id/process_text"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Process Text"
+        android:textSize="18sp"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:gravity="center"/>
+
+</LinearLayout>
