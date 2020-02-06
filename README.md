@@ -19,6 +19,6 @@ Process:
 
 
 
-  * Firebase Image Text Recognition for recognizing text. 
+  * [Firebase Image Text Recognition for recognizing text](https://firebase.google.com/docs/ml-kit/android/recognize-text). 
   * [Otsu Method](https://en.wikipedia.org/wiki/Otsu%27s_method) was used to Binarize the image for amplify and improve text recognition.
   * For cropping image used api 'com.theartofdev.edmodo:android-image-cropper:2.8.+'. Refer to github [link](https://github.com/ArthurHub/Android-Image-Cropper)
