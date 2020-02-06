@@ -1,4 +1,4 @@
-# ImageToText
+# ImageToText App for Android
 
 <a href="https://imgflip.com/gif/3oc3gr"><img src="https://i.imgflip.com/3oc3gr.gif" title="Demo"/></a>
 
